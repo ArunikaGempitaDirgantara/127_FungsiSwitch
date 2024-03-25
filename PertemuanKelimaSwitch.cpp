@@ -53,6 +53,11 @@ int main()
             cout << "Hasil Penjumlahan = " << penjumlahan(a, b) << endl;
             system("pause");
             break;
+        case 2:
+            input();
+            cout << "Hasil Pengurangan = " << pengurangan(a, b) << endl;
+            system("pause");
+            break;
         }
     }
     std::cout << "Hello World!\n";
