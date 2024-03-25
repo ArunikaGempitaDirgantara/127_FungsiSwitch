@@ -70,7 +70,9 @@ int main()
             break;
         case 5:
             break;
+        default:
+            cout << "Menu tidak ada, pilih lagi!" << endl;
+            break;
         }
-    }
-    std::cout << "Hello World!\n";
+    } while (pilihan != 5);
 }
