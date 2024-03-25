@@ -68,6 +68,8 @@ int main()
             cout << "Hasil Pembagian = " << pembagian(a, b) << endl;
             system("pause");
             break;
+        case 5:
+            break;
         }
     }
     std::cout << "Hello World!\n";
